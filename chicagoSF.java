@@ -51,7 +51,7 @@ public class chicagoSF extends ViewableAtomic{
 					
 					packageQ.add(new Pair<String, String>(packagesSF.key, packagesSF.value));	
 					System.out.println("queue: after adding" + packageQ.size());
-					holdIn("active", 20);
+					holdIn("active", sigma - e);
 				}
 				else if(packageQ.size()==5)
 				{
