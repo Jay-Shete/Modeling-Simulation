@@ -18,7 +18,7 @@ public class GeneratorProject extends ViewableAtomic{
 	static int c = 0;
 
 	public GeneratorProject() {
-		this("GeneratorProject", 10);
+		this("GeneratorProject", 5);
 	}
 	
 	public GeneratorProject(String name, double Int_arr_time) {
